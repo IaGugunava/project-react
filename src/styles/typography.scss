@@ -1,0 +1,118 @@
+.capitalize {
+    text-transform: capitalize;
+}
+.underline {
+    text-decoration: underline;
+}
+.uppercase {
+    text-transform: uppercase;
+    -moz-font-feature-settings: "case";
+    -webkit-font-feature-settings: "case";
+    font-feature-settings: "case" on;
+}
+// Headline 1
+.hl-1 {
+    font-size: 34px;
+    line-height: 40px;
+}
+// Headline 2
+.hl-2 {
+    font-size: 32px;
+    line-height: 48px;
+}
+// Headline 3
+.hl-3 {
+    font-size: 28px;
+    line-height: 36px;
+}
+// Headline 4
+.hl-4 {
+    font-size: 24px;
+    line-height: 36px;
+}
+// Headline 5
+.hl-5 {
+    font-size: 16px;
+    line-height: 24px;
+}
+// Headline 6
+.hl-6 {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.hl-55 {
+    font-size: 55px;
+    line-height: 66px;
+}
+.hl-89 {
+    font-size: 89px;
+    line-height: 107px;
+}
+
+// <================================ DISPLAYS
+// Display 1
+.d-1 {
+    font-size: 56px;
+    line-height: 80px;
+}
+// Display 2
+.d-2 {
+    font-size: 48px;
+    line-height: 64px;
+}
+// Display 3
+.d-3 {
+    font-size: 44px;
+    line-height: 56px;
+}
+
+// <================================ PARAGRAPHS
+// Paragraph 1
+.p-0 {
+    font-size: 9px;
+    line-height: 13px;
+}
+.p-1 {
+    font-size: 16px;
+    line-height: 34px;
+}
+.p-title {
+    font-size: 21px;
+    line-height: 28px;
+}
+.p-body {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+// <================================ BUTTON TYPOGRAPHY
+
+.bt {
+    font-size: 14px;
+    line-height: 34px;
+    &-lg {
+        font-size: 16px;
+    }
+}
+
+// <================================ CAPTION TYPOGRAPHY
+// Caption 1
+.ct-title {
+    font-size: 18px;
+    line-height: 21px;
+}
+.ct-1 {
+    font-size: 16px;
+    line-height: 16px;
+}
+// Caption 2
+.ct-2 {
+    font-size: 14px;
+    line-height: 16px;
+}
+// Caption 3
+.ct-3 {
+    font-size: 13px;
+    line-height: 16px;
+}

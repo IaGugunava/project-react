@@ -1,0 +1,27 @@
+@mixin mq($title) {
+    @if $title == desktop-xl {
+        @media (max-width: 1599px) {
+            @content;
+        }
+    } @else if $title == desktop-l {
+        @media (max-width: 1439px) {
+            @content;
+        }
+    } @else if $title == tablet {
+        @media (max-width: 1199px) {
+            @content;
+        }
+    } @else if $title == mobile {
+        @media (max-width: 767px) {
+            @content;
+        }
+    } @else if $title == mobile-sm {
+        @media (max-width: 575px) {
+            @content;
+        }
+    } @else if $title == mobile-xs{
+        @media (max-width: 375px){
+            @content;
+        }
+    }
+}
